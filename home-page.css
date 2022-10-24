@@ -1,0 +1,107 @@
+.main-page{
+    width: 100%;
+    height: auto;
+
+    position: relative;
+}
+
+/* *** HEADER */
+header{
+    width: 100%;
+    height: 550px;
+
+    position: relative;
+}
+
+    .header-img-site{
+        width: 100%;
+        height: inherit;
+
+        position: relative;
+    }
+
+        .content-header-img-site-box{
+            width: 100%;
+            height: inherit;
+
+            background-image: url(img/artists/indir.jpg);
+            background-position-y: -20px;
+            background-repeat: no-repeat;
+            background-size: cover;
+
+            position: relative;
+        }
+
+        .content-header-img-linear-gradient{
+            width: 100%;
+            height: 50%;
+
+            position: absolute;
+            bottom: 0;
+            
+            background-image: linear-gradient(to top, rgba(34, 40, 49), rgba(34, 40, 49, 0));
+
+            z-index: 1;
+        }
+
+        .content-header-img-linear-gradient-2{
+            width: 50%;
+            height: 100%;
+
+            position: absolute;
+            left: 0;
+            
+            background-image: linear-gradient(to right, rgba(34, 40, 49, .7), rgba(34, 40, 49, 0));
+
+            z-index: 1;
+        }
+
+
+
+    .header-text-site{
+        width: 30%;
+        height: 100%;
+
+        position: absolute;
+        left: 17%;
+        bottom: 5%;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+        z-index: 3;
+    }
+
+    .header-text-site h1, .header-text-site p{
+        color: #fff;
+    }
+
+        .header-text-site .content-header-text-site-h1 h1{
+            font-weight: 600;
+            font-size: 55px;
+        }
+
+        .header-text-site .content-header-text-site-p p{
+            font-weight: 100;
+            font-size: 15px;
+        }
+
+
+
+
+/* *** MAIN CONTENT */
+
+.main-content{
+    width: 87%;
+    height: auto;
+
+    position: relative;
+    left: 13%;
+
+    padding: 1rem 1rem 4.7rem 1rem;
+
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+}
